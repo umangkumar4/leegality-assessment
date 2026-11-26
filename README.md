@@ -3,8 +3,8 @@
 An Amazon-style product catalogue built with React + TypeScript on top of the
 [DummyJSON products API](https://dummyjson.com/docs/products).
 
-- **Live demo:** _add link_
-- **Repository:** _add link_
+- **Live demo:** https://melodic-bavarois-2d6ebb.netlify.app/
+- **Repository:** https://github.com/umangkumar4/leegality-assessment
 
 ## Features
 
@@ -28,6 +28,12 @@ An Amazon-style product catalogue built with React + TypeScript on top of the
 - Loading skeletons, error states with retry, empty state with "Clear all filters", 404 handling
 - Responsive (checked at 320–1440px): sidebar on desktop; on phones and tablets a **Filters** button with an active-filter count opens a drawer (Esc/backdrop to close, page scroll locked, sticky *Clear all / Show N results*). Two-column grid and scaled-down detail page on phones. Header icons are placeholders
 - Unit + component tests
+
+## Deployment
+
+Deployed on Netlify (build command `npm run build`, publish directory `dist`).
+`public/_redirects` sends every path to `index.html`, so deep links such as `/product/7`
+work on refresh and when shared.
 
 ## Tech stack
 
