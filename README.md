@@ -3,7 +3,7 @@
 An Amazon-style product catalogue built with React + TypeScript on top of the
 [DummyJSON products API](https://dummyjson.com/docs/products).
 
-- **Live demo:** https://melodic-bavarois-2d6ebb.netlify.app/
+- **Live demo:** https://sage-crepe-7df013.netlify.app/
 - **Repository:** https://github.com/umangkumar4/leegality-assessment
 
 ## Features
